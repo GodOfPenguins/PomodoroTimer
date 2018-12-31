@@ -63,11 +63,11 @@ namespace WpfApp1
                 {
                     nowTime = restTime + 1;
                     isWorkTime = false;
-                    pomodorosNow += 1;
                     nowInfo.Content = "Сейчас: Отдых";
                 }
                 else
                 {
+                    pomodorosNow += 1;
                     nowTime = workTime + 1;
                     isWorkTime = true;
                     isBigRest = false;
